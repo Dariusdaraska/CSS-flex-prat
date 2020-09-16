@@ -1,0 +1,89 @@
+/* CSS files add styling rules to your content */
+*{
+    margin:auto
+}
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+}
+
+.container {
+    display: flex;
+}
+
+.mazas {
+    width: 200px;
+    height: 150px;
+    background-color: #b0eda4;
+    margin: 5px;
+}
+
+
+.container-perkelti {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kita {
+    width: 200px;
+    height: 150px;
+    background-color: #f57e2a;
+    margin: 5px;
+}
+
+.viduryje {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    background-color: #b0eda4;
+    justify-content: center;
+    align-items: center;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    width: 100%;
+}
+
+.navigacija a {
+    text-decoration: none;
+    background-color:gold;
+    padding: 20px;
+
+}
+
+.navigacija a:hover {
+    background-color: #b0eda4;
+    color: azure;
+}
+.deze {
+    height: 200px;
+    position: relative;
+    border: 3px solid green;
+}
+
+.mygtukas {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.mygtukas a:hover {
+    background-color: #b0eda4;
+    color: azure;
+}
+
+
+h1 {
+    font-family: 'Ranchers', cursive;
+    color: #373fff;
+}
+
+p {
+    font-family: 'Ranchers', cursive;
+}
